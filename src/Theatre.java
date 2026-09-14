@@ -1,3 +1,11 @@
+import persons.Actor;
+import persons.Director;
+import persons.GenderOfPerson;
+import persons.Person;
+import show.Ballet;
+import show.Opera;
+import show.Show;
+
 public class Theatre {
 
     public static void main(String[] args) {
@@ -52,7 +60,7 @@ public class Theatre {
         System.out.println();
 
         // Задание 5
-        opera.changeActor(actor1, "Шаляпин");
+        opera.changeActor(actor1, "шаляпин");
         opera.printListOfActors();
         System.out.println();
 

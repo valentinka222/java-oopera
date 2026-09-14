@@ -1,3 +1,8 @@
+package show;
+
+import persons.Actor;
+import persons.Director;
+
 import java.util.ArrayList;
 
 public class Show {
@@ -46,7 +51,7 @@ public class Show {
     public void changeActor(Actor newActor, String surname) {
         if (newActor != null) {
             for (Actor actor : listOfActors) {
-                if (actor.getSurname().equals(surname)) {
+                if (actor.getSurname().equalsIgnoreCase(surname)) {
                     if (actor.equals(newActor)) {
                         System.out.println("Такой актер уже есть в списке");
                         return;

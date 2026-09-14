@@ -1,3 +1,8 @@
+package show;
+
+import persons.Director;
+import persons.Person;
+
 public class Ballet extends MusicalShow {
     private final Person choreographer;
 
